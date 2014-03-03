@@ -18,7 +18,7 @@
                         <li><a class="homenav" href="http://www.bonpixel.com" onclick="_gaq.push(['_trackEvent', 'navigation', 'home']);return true;">Home</a></li>
                         <li><a class="portfolionav" href="http://www.bonpixel.com/projects" onclick="_gaq.push(['_trackEvent', 'navigation', 'projects']);return true;">Projects</a></li>
                         <li><a class="aboutnav" href="http://www.bonpixel.com/about" onclick="_gaq.push(['_trackEvent', 'navigation', 'about']);return true;">About</a></li>
-                        <li><a href="http://www.bonpixel.com/blog" onclick="_gaq.push(['_trackEvent', 'navigation', 'blog']);return true;">Blog</a></li>
+                        <li><a href="http://blog.bonpixel.com/" onclick="_gaq.push(['_trackEvent', 'navigation', 'blog']);return true;">Blog</a></li>
                         <li><a class="contactnav" href="http://www.bonpixel.com/contact" onclick="_gaq.push(['_trackEvent', 'navigation', 'contact']);return true;">Contact/Quote</a></li>
                     </ul>
                 </div>
