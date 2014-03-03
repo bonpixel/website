@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<customer_quotations>
+
+	<quote>
+		<text>Bryan did a super duper job! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut odio arcu, pulvinar non scelerisque eget, tempor id odio. Phasellus feugiat cursus blandit. Vestibulum vehicula dolor quis dui malesuada interdum. Quisque laoreet, nulla vel fringilla rhoncus, mi eros rutrum lectus, vitae ullamcorper nisl quam at est. Sed bibendum tellus quam, sed ultricies metus. In hac habitasse platea dictumst.</text>
+		<customer_name>Super Hat Friends</customer_name>
+		<customer_company>Super Hat Friends Inc</customer_company>
+		<project>http://www.bonpixel.com/projects#superhat</project>		
+	</quote>
+
+	<quote>
+		<text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut odio arcu, pulvinar non scelerisque eget, tempor id odio. Phasellus feugiat cursus blandit. Vestibulum vehicula dolor quis dui malesuada interdum. Quisque laoreet, nulla vel fringilla rhoncus, mi eros rutrum lectus.</text>
+		<customer_name>Chandra Nichols</customer_name>		
+		<customer_company>December Rose Photography</customer_company>
+		<project>http://www.bonpixel.com/projects#decemberrose</project>		
+	</quote>
+
+	<quote>	
+		<text>BrYan was able to transform a vague description of a logo idea into a great looking logo that fit the form and function of our website. He was great to work with. </text>		
+		<customer_name>Paul Majack</customer_name>		
+		<customer_company>Rainier Hills Christian Fellowship</customer_company>
+		<project>http://www.bonpixel.com/projects#rhcf</project>		
+	</quote>
+	
+</customer_quotations>
