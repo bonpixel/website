@@ -1,4 +1,59 @@
-@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
+@font-face {
+  font-family: "clear_sansbold";
+  src: url("font/clearsans/ClearSans-Bold-webfont.eot");
+  src: url("font/clearsans/ClearSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("font/clearsans/ClearSans-Bold-webfont.woff") format("woff"), url("font/clearsans/ClearSans-Bold-webfont.ttf") format("truetype"), url("font/clearsans/ClearSans-Bold-webfont.svg#clear_sansbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "clear_sansbold_italic";
+  src: url("font/clearsans/ClearSans-BoldItalic-webfont.eot");
+  src: url("font/clearsans/ClearSans-BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("font/clearsans/ClearSans-BoldItalic-webfont.woff") format("woff"), url("font/clearsans/ClearSans-BoldItalic-webfont.ttf") format("truetype"), url("font/clearsans/ClearSans-BoldItalic-webfont.svg#clear_sansbold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "clear_sansitalic";
+  src: url("font/clearsans/ClearSans-Italic-webfont.eot");
+  src: url("font/clearsans/ClearSans-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("font/clearsans/ClearSans-Italic-webfont.woff") format("woff"), url("font/clearsans/ClearSans-Italic-webfont.ttf") format("truetype"), url("font/clearsans/ClearSans-Italic-webfont.svg#clear_sansitalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "clear_sans_lightregular";
+  src: url("font/clearsans/ClearSans-Light-webfont.eot");
+  src: url("font/clearsans/ClearSans-Light-webfont.eot?#iefix") format("embedded-opentype"), url("font/clearsans/ClearSans-Light-webfont.woff") format("woff"), url("font/clearsans/ClearSans-Light-webfont.ttf") format("truetype"), url("font/clearsans/ClearSans-Light-webfont.svg#clear_sans_lightregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "clear_sans_mediumregular";
+  src: url("font/clearsans/ClearSans-Medium-webfont.eot");
+  src: url("font/clearsans/ClearSans-Medium-webfont.eot?#iefix") format("embedded-opentype"), url("font/clearsans/ClearSans-Medium-webfont.woff") format("woff"), url("font/clearsans/ClearSans-Medium-webfont.ttf") format("truetype"), url("font/clearsans/ClearSans-Medium-webfont.svg#clear_sans_mediumregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "clear_sans_mediumitalic";
+  src: url("font/clearsans/ClearSans-MediumItalic-webfont.eot");
+  src: url("font/clearsans/ClearSans-MediumItalic-webfont.eot?#iefix") format("embedded-opentype"), url("font/clearsans/ClearSans-MediumItalic-webfont.woff") format("woff"), url("font/clearsans/ClearSans-MediumItalic-webfont.ttf") format("truetype"), url("font/clearsans/ClearSans-MediumItalic-webfont.svg#clear_sans_mediumitalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "clear_sansregular";
+  src: url("font/clearsans/ClearSans-Regular-webfont.eot");
+  src: url("font/clearsans/ClearSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("font/clearsans/ClearSans-Regular-webfont.woff") format("woff"), url("font/clearsans/ClearSans-Regular-webfont.ttf") format("truetype"), url("font/clearsans/ClearSans-Regular-webfont.svg#clear_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "clear_sans_thinregular";
+  src: url("font/clearsans/ClearSans-Thin-webfont.eot");
+  src: url("font/clearsans/ClearSans-Thin-webfont.eot?#iefix") format("embedded-opentype"), url("font/clearsans/ClearSans-Thin-webfont.woff") format("woff"), url("font/clearsans/ClearSans-Thin-webfont.ttf") format("truetype"), url("font/clearsans/ClearSans-Thin-webfont.svg#clear_sans_thinregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 .msg {
   padding: 10px;
   background: #222222;
@@ -56,16 +111,17 @@ section {
 body {
   background-color: #444444;
   font-size: 12px;
-  font-family: "Libre Baskerville", serif;
+  font-family: "clear_sansregular", serif;
   font-weight: 400;
   line-height: 1.45;
   color: #333333; }
 
 p {
-  margin-bottom: 1.3rem; }
+  margin-bottom: 1.3rem;
+  font-family: "clear_sansregular", serif; }
 
 h1, h2, h3, h4 {
-  font-family: "Libre Baskerville", serif;
+  font-family: "clear_sans_thinregular", serif;
   margin: 1.414rem 0 0.5rem;
   font-weight: inherit;
   line-height: 1.2;
@@ -76,10 +132,12 @@ h1 {
   font-size: 3.157rem; }
 
 h2 {
-  font-size: 2.369rem; }
+  font-size: 2.369rem;
+  font-family: "clear_sans_mediumregular", serif; }
 
 h3 {
-  font-size: 1.777rem; }
+  font-size: 1.777rem;
+  font-family: "clear_sans_lightregular", serif; }
 
 h4 {
   font-size: 1.333rem; }
@@ -91,7 +149,7 @@ small,
 section h1 {
   font-size: 1.56rem; }
 section h2 {
-  font-size: 0.96rem; }
+  font-size: 0.84rem; }
 section h3 {
   font-size: 0.72rem; }
 section small {
@@ -103,9 +161,11 @@ section .subtitle {
   section .subtitle h2, section .subtitle h3 {
     text-align: right; }
   section .subtitle h2 {
-    margin-top: 7px; }
+    margin-top: 7px;
+    font-weight: bold; }
   section .subtitle h3 {
-    margin-top: -5px; }
+    margin-top: -5px;
+    font-weight: italic; }
 section .description {
   margin-bottom: 0.9rem; }
   section .description p {
