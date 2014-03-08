@@ -101,8 +101,11 @@ section .subtitle {
   margin-right: 20px;
   margin-bottom: 0.9rem; }
   section .subtitle h2, section .subtitle h3 {
-    text-align: right;
-    line-height: 0.6rem; }
+    text-align: right; }
+  section .subtitle h2 {
+    margin-top: 7px; }
+  section .subtitle h3 {
+    margin-top: -5px; }
 section .description {
   margin-bottom: 0.9rem; }
   section .description p {
@@ -119,13 +122,6 @@ strong {
 li {
   line-height: 24px;
   border-bottom: 1px solid #cccccc; }
-
-p.enlarge {
-  font-size: 144%;
-  padding-right: 6.5em;
-  line-height: 24px; }
-  p.enlarge span {
-    color: black; }
 
 .contact-info {
   margin-top: 7px; }
@@ -160,5 +156,5 @@ a#pdf {
 .education .description p {
   margin-bottom: 0.35rem; }
 
-.skills .talent {
+.presence .talent {
   margin-left: 20px; }
