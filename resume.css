@@ -69,7 +69,6 @@
     .msg a:hover {
       background: #266400; }
 
-/* //-- yui3-grids style overrides -- */
 #doc {
   width: 1080px;
   margin: 0 auto; }
@@ -110,18 +109,18 @@ section {
 
 body {
   background-color: #444444;
-  font-size: 12px;
-  font-family: "clear_sansregular", serif;
+  font-size: 13px;
+  font-family: "clear_sansregular", sans-serif;
   font-weight: 400;
   line-height: 1.45;
   color: #333333; }
 
 p {
   margin-bottom: 1.3rem;
-  font-family: "clear_sansregular", serif; }
+  font-family: "clear_sansregular", sans-serif; }
 
 h1, h2, h3, h4 {
-  font-family: "clear_sans_thinregular", serif;
+  font-family: "clear_sans_thinregular", sans-serif;
   margin: 1.414rem 0 0.5rem;
   font-weight: inherit;
   line-height: 1.2;
@@ -133,11 +132,11 @@ h1 {
 
 h2 {
   font-size: 2.369rem;
-  font-family: "clear_sans_mediumregular", serif; }
+  font-family: "clear_sansregular", sans-serif; }
 
 h3 {
   font-size: 1.777rem;
-  font-family: "clear_sans_lightregular", serif; }
+  font-family: "clear_sans_lightregular", sans-serif; }
 
 h4 {
   font-size: 1.333rem; }
@@ -149,7 +148,7 @@ small,
 section h1 {
   font-size: 1.56rem; }
 section h2 {
-  font-size: 0.84rem; }
+  font-size: 0.96rem; }
 section h3 {
   font-size: 0.72rem; }
 section small {
