@@ -8,22 +8,23 @@ html(lang="en")
 		meta(name="keywords", content="")
 		meta(name="description", content="")
 
-		link(rel="stylesheet", type="text/css", href="yui3.css", media="all")
-		link(rel="stylesheet", type="text/css", href="resume.css", media="all")
+		//- link(rel="stylesheet", type="text/css", href="css/yui3.css", media="all")
+		link(rel="stylesheet", type="text/css", href="css/normalize.css", media="all")
+		link(rel="stylesheet", type="text/css", href="css/foundation.min.css", media="all")
+		link(rel="stylesheet", type="text/css", href="css/resume.css", media="all")
 
 
 	body
 
 	div#doc
-		div#inner.yui3-g
+		div#inner
 
-			header#hd.yui3-u-1
-				div.yui3-u-1-2
+			header#hd.row
+				div.medium-6.columns
 					h1 Bryan Nichols
 					h2 Web Developer
 
-
-				div.yui3-u-1-4
+				div.medium-6.columns
 					div.contact-info
 						h3
 							a#pdf(href="#") Download PDF
@@ -42,87 +43,97 @@ html(lang="en")
 
 				//- Employment
 				section.employment
-					div.yui3-u-1-4
-						h1 Employment
+					div.row
+						div.small-12.medium-3.columns
+							h1 Employment
 
-					//- TAG Creative
-					div.yui3-u-1-4
-						div.subtitle.position
-							h2 Interactive Developer
-							h3 9/2012 - Present
-					div.yui3-u-1-2
-						div.description
-							:markdown
-								[Tag Creative](href="http://tagcreativestudio.com") Is an interactive agency specializing in creative brand and advertising campaigns. They work with a wide range of partners and clients in a diverse range of dicisplines. Because of the unique oppotunities created in thier relationships, Tag has a diverse portfolio including websites, applications, games and other tooling.
+						//- //- TAG Creative
+						//- div.row
+						div.small-12.medium-3.columns
+							div.subtitle.position
+								h2 Interactive Developer
+								h3 9/2012 - Present
+						div.medium-6.columns
+							div.description
+								:markdown
+									[Tag Creative](href="http://tagcreativestudio.com") Is an interactive agency specializing in creative brand and advertising campaigns. They work with a wide range of partners and clients in a diverse range of dicisplines. Because of the unique oppotunities created in thier relationships, Tag has a diverse portfolio including websites, applications, games and other tooling.
 
 					//- Stripes39
-					div.yui3-u-1-2
-						div.subtitle.position
-							h2 Web Developer
-							h3 7/2011 – 7/2012
-					div.yui3-u-1-2
-						div.description
-							:markdown
-								[Stripes39](http://www.stripes39.com/) is a multi-facited firm involved in many online verticals. These include Brand Development, B2B Lead Gerenation, Natual Language Processing and many more. They primarily specialize in High keyword rankings to drive traffice to their sites for lead conversion.
+					div.row
+						div.medium-6.columns
+							div.subtitle.position
+								h2 Web Developer
+								h3 7/2011 – 7/2012
+						div.medium-6.columns
+							div.description
+								:markdown
+									[Stripes39](http://www.stripes39.com/) is a multi-facited firm involved in many online verticals. These include Brand Development, B2B Lead Gerenation, Natual Language Processing and many more. They primarily specialize in High keyword rankings to drive traffice to their sites for lead conversion.
 
 					//- Media Tools
-					div.yui3-u-1-2
-						div.subtitle.position
-							h2 Web Developer
-							h3 2/2005 – 7/2011
-					div.yui3-u-1-2
-						div.description
-							:markdown
-								[Media Tools](http://www.media-tools.com/) Designs and builds non-linear video edition systems and storage solutions for companies around the greater seattle area. They work with companies as large as Microsoft and Boeing to small one man production houses.
+					div.row
+						div.medium-6.columns
+							div.subtitle.position
+								h2 Technician, Web admin
+								h3 2/2005 – 7/2011
+						div.medium-6.columns
+							div.description
+								:markdown
+									[Media Tools](http://www.media-tools.com/) Designs and builds non-linear video edition systems and storage solutions for companies around the greater seattle area. They work with companies as large as Microsoft and Boeing to small one man production houses.
 
 
 
 
 				//- Experience
 				section.experience
-					div.yui3-u-1-4
-						h1 Experience
+					div.row
+						div.medium-3.columns
+							h1 Experience
 
-					//- thing1
-					div.yui3-u-1-4
-						div.subtitle.position
-							h2 Committee for Children - Second Step
-							h3 6 months
-					div.yui3-u-1-2
-						div.description
-							p Backbone application used in the classroom to display interactive curriculum for grades 1 - 5
+						//- thing1
 
-					div.yui3-u-1-2
-						div.subtitle.position
-							h2 Skype
-							h3 2 months
-					div.yui3-u-1-2
-						div.description
-							p Social video stitching application
+						div.medium-3.columns
+							div.subtitle.position
+								h2 Committee for Children - Second Step
+								h3 6 months
+						div.medium-6.columns
+							div.description
+								p Backbone application used in the classroom to display interactive curriculum for grades 1 - 5
 
-					div.yui3-u-1-2
-						div.subtitle.position
-							h2 Microsoft Content App
-							h3 2 months
-					div.yui3-u-1-2
-						div.description
-							p WinJS Application used internally by Microsoft to distribute and view curated Microsoft content
+					div.row
+						div.medium-6.columns
+							div.subtitle.position
+								h2 Skype
+								h3 2 months
+						div.medium-6.columns
+							div.description
+								p Social video stitching application
 
-					div.yui3-u-1-2
-						div.subtitle.position
-							h2 Education News
-							h3 4 months
-					div.yui3-u-1-2
-						div.description
-							p A Big News site
+					div.row
+						div.medium-6.columns
+							div.subtitle.position
+								h2 Microsoft Content App
+								h3 2 months
+						div.medium-6.columns
+							div.description
+								p WinJS Application used internally by Microsoft to distribute and view curated Microsoft content
 
-					div.yui3-u-1-2
-						div.subtitle.position
-							h2 Fretzen
-							h3 On-going
-					div.yui3-u-1-2
-						div.description
-							p Collaborative Music education (guitar) project intent on changing the ease and method of idiomatically learning the guitar
+					div.row
+						div.medium-6.columns
+							div.subtitle.position
+								h2 Education News
+								h3 4 months
+						div.medium-6.columns
+							div.description
+								p A Big News site
+
+					div.row
+						div.medium-6.columns
+							div.subtitle.position
+								h2 Fretzen
+								h3 On-going
+						div.medium-6.columns
+							div.description
+								p Collaborative Music education (guitar) project intent on changing the ease and method of idiomatically learning the guitar
 
 
 
@@ -130,181 +141,197 @@ html(lang="en")
 
 				//- Code Examples
 				section.examples
-					div.yui3-u-1-4
-						h1 Code Examples
+					div.row
+						div.medium-3.columns
+							h1 Code Examples
 
-					//- Example1
-					div.yui3-u-1-4
-						div.subtitle.position
-							h2 Example1
-							h3 1/2013
-					div.yui3-u-1-2
-						div.description
-							:markdown
-								[link](http://bonpixel.com) Awesome stuff this Example 1
+						//- Example1
+						div.medium-3.columns
+							div.subtitle.position
+								h2 Example1
+								h3 1/2013
+						div.medium-6.columns
+							div.description
+								:markdown
+									[link](http://bonpixel.com) Awesome stuff this Example 1
 
 					//- Example2
-					div.yui3-u-1-2
-						div.subtitle.position
-							h2 Example2
-							h3 2/2013
-					div.yui3-u-1-2
-						div.description
-							:markdown
-								[link](http://bonpixel.com) Awesome stuff this Example 2
+					div.row
+						div.medium-6.columns
+							div.subtitle.position
+								h2 Example2
+								h3 2/2013
+						div.medium-6.columns
+							div.description
+								:markdown
+									[link](http://bonpixel.com) Awesome stuff this Example 2
 
 					//- Example3
-					div.yui3-u-1-2
-						div.subtitle.position
-							h2 Example3
-							h3 3/2013
-					div.yui3-u-1-2
-						div.description
-							:markdown
-								[link](http://bonpixel.com) Awesome stuff this Example 3
+					div.row
+						div.medium-6.columns
+							div.subtitle.position
+								h2 Example3
+								h3 3/2013
+						div.medium-6.columns
+							div.description
+								:markdown
+									[link](http://bonpixel.com) Awesome stuff this Example 3
 
 					//- Example4
-					div.yui3-u-1-2
-						div.subtitle.position
-							h2 Example4
-							h3 4/2013
-					div.yui3-u-1-2
-						div.description
-							:markdown
-								[link](http://bonpixel.com) Awesome stuff this Example 4
+					div.row
+						div.medium-6.columns
+							div.subtitle.position
+								h2 Example4
+								h3 4/2013
+						div.medium-6.columns
+							div.description
+								:markdown
+									[link](http://bonpixel.com) Awesome stuff this Example 4
 
 					//- Example5
-					div.yui3-u-1-2
-						div.subtitle.position
-							h2 Example5
-							h3 5/2013
-					div.yui3-u-1-2
-						div.description
-							:markdown
-								[link](http://bonpixel.com) Awesome stuff this Example 5
+					div.row
+						div.medium-6.columns
+							div.subtitle.position
+								h2 Example5
+								h3 5/2013
+						div.medium-6.columns
+							div.description
+								:markdown
+									[link](http://bonpixel.com) Awesome stuff this Example 5
 
 
 
 
 				//- Presence
 				section.presence
-					div.yui3-u-1-4
-						h1 Digital Presence
+					div.row
+						div.medium-3.columns
+							h1 Digital Presence
 
-					div.yui3-u-1-4
-						div.talent
-							h2 Github
-							:markdown
-								[https://github.com/bonpixel](https://github.com/bonpixel) With Git as my preferred CVS, Gihub is an awesome place to find new code and inspiration.
+						div.medium-3.columns
+							div.talent
+								h2 Github
+								:markdown
+									[https://github.com/bonpixel](https://github.com/bonpixel) With Git as my preferred CVS, Gihub is an awesome place to find new code and inspiration.
 
-					div.yui3-u-1-4
-						div.talent
-							h2 CodePen
-							:markdown
-								[http://codepen.io/bonpixel/](http://codepen.io/bonpixel/) Some of the quick one-off examples I've used for proof-of-concept or quick prototypes in code.
+						div.medium-3.columns
+							div.talent
+								h2 CodePen
+								:markdown
+									[http://codepen.io/bonpixel/](http://codepen.io/bonpixel/) Some of the quick one-off examples I've used for proof-of-concept or quick prototypes in code.
 
-					div.yui3-u-1-4
-						div.talent
-							h2 Blog
-							:markdown
-								[http://blog.bonpixel.com/](http://blog.bonpixel.com/) My personal blog where I check in now and again to file away thoughts and other things I come across.
+						div.medium-3.columns
+							div.talent
+								h2 Blog
+								:markdown
+									[http://blog.bonpixel.com/](http://blog.bonpixel.com/) My personal blog where I check in now and again to file away thoughts and other things I come across.
 
 
 
 
 				//- Technical
 				section.technical
-					div.yui3-u-1-4
-						h1 Technical
+					div.row
+						div.medium-3.columns
+							h1 Technical
 
-					div.yui3-u-1-4
-						div.subtitle
-							h2 Proficiencies
+						div.medium-3.columns
+							div.subtitle
+								h2 Proficiencies
 
-					div.yui3-u-1-2
-						div.description
-							p Javascript / CSS3 / HTML5 / Jquery / PHP / Ruby / CVS / Subversion / Git / OS X / Windows XP/Vista / CLI / Linux / Windows 8 / WinJS / Sass / Compass / Grunt / Scut / Bower / Boxen / Yeoman / RequireJS / AMD / Sublime Text / Digital Ocean / SSH / Mac / iTerm2 / MAMP / WAMP / Backbone / Underscore / Gulp / JSON / AJAX / Canvas
+						div.medium-6.columns
+							div.description
+								p Javascript / CSS3 / HTML5 / Jquery / PHP / Ruby / CVS / Subversion / Git / OS X / Windows XP/Vista / CLI / Linux / Windows 8 / WinJS / Sass / Compass / Grunt / Scut / Bower / Boxen / Yeoman / RequireJS / AMD / Sublime Text / Digital Ocean / SSH / Mac / iTerm2 / MAMP / WAMP / Backbone / Underscore / Gulp / JSON / AJAX / Canvas
 
 
 
 
 				//- Education
 				section.education
-					div.yui3-u-1-4
-						h1 Education
+					div.row
+						div.medium-3.columns
+							h1 Education
 
-					div.yui3-u-1-4
-						div.subtitle.date
-							h2 1/2008 – 1/2011
+						div.medium-3.columns
+							div.subtitle.date
+								h2 1/2008 – 1/2011
 
-					div.yui3-u-1-2
-						div.description
-							p Western Governors University - Salt Lake City, Utah
-							p Bachelor of Science: Information Technology with an emphasis on software
-							small * Some Coursework Completed,
+						div.medium-6.columns
+							div.description
+								p Western Governors University - Salt Lake City, Utah
+								p Bachelor of Science: Information Technology with an emphasis on software
+								small * Some Coursework Completed,
 
-					div.yui3-u-1-2
-						div.subtitle.date
-							h2 1/2008 – 1/2011
-					div.yui3-u-1-2
-						div.description
-							p CIW Web Associate Certification
+					div.row
+						div.medium-6.columns
+							div.subtitle.date
+								h2 1/2008 – 1/2011
+						div.medium-6.columns
+							div.description
+								p CIW Web Associate Certification
 
-					div.yui3-u-1-2
-						div.subtitle.date
-							h2 1/2009
-					div.yui3-u-1-2
-						div.description
-							p CompTIA A+ Certification
+					div.row
+						div.medium-6.columns
+							div.subtitle.date
+								h2 1/2009
+						div.medium-6.columns
+							div.description
+								p CompTIA A+ Certification
 
-					div.yui3-u-1-2
-						div.subtitle.date
-							h2 5/2009
-					div.yui3-u-1-2
-						div.description
-							p CIW JavaScript Fundamentals
+					div.row
+						div.medium-6.columns
+							div.subtitle.date
+								h2 5/2009
+						div.medium-6.columns
+							div.description
+								p CIW JavaScript Fundamentals
 
-					div.yui3-u-1-2
-						div.subtitle.date
-							h2 4/2011
-					div.yui3-u-1-2
-						div.description
-							p Mac Integration Basics 10.6
+					div.row
+						div.medium-6.columns
+							div.subtitle.date
+								h2 4/2011
+						div.medium-6.columns
+							div.description
+								p Mac Integration Basics 10.6
 
-					div.yui3-u-1-2
-						div.subtitle.date
-							h2 4/2011
-					div.yui3-u-1-2
-						div.description
-							p OS X Snow Leopard 10.6 Support Essentials
+					div.row
+						div.medium-6.columns
+							div.subtitle.date
+								h2 4/2011
+						div.medium-6.columns
+							div.description
+								p OS X Snow Leopard 10.6 Support Essentials
 
 
 
 				//- Profile
 				section.profile
-					div.yui3-u-1-4
-						h1 Interests
+					div.row
+						div.medium-3.columns
+							h1 Interests
 
-					div.yui3-u-1-4
-						div.subtitle.date
-							h2 Woodworking
-					div.yui3-u-1-2
-						div.description
-							p When I'm not working on code, I like to unwind in my shop with a good wood working project. Woodworking is a skill I continue to hone and challenge myself with.
+						div.medium-3.columns
+							div.subtitle.date
+								h2 Woodworking
+						div.medium-6.columns
+							div.description
+								p When I'm not working on code, I like to unwind in my shop with a good wood working project. Woodworking is a skill I continue to hone and challenge myself with.
 
-					div.yui3-u-1-2
-						div.subtitle.date
-							h2 Boatbuilding
-					div.yui3-u-1-2
-						div.description
-							p I'm working on building a small little fishing boat that I can take out on some of the lakes around where I live. Its a long time comming but will be well worth the wait.
+					div.row
+						div.medium-6.columns
+							div.subtitle.date
+								h2 Boatbuilding
+						div.medium-6.columns
+							div.description
+								p I'm working on building a small little fishing boat that I can take out on some of the lakes around where I live. Its a long time comming but will be well worth the wait.
 
-					div.yui3-u-1-2
-						div.subtitle.date
-							h2 Drums
-					div.yui3-u-1-2
-						div.description
-							p I'm a percussionist, having started about 10 years ago. I play for my church regularly.
+					div.row
+						div.medium-6.columns
+							div.subtitle.date
+								h2 Drums
+						div.medium-6.columns
+							div.description
+								p I'm a percussionist, having started about 10 years ago. I play for my church regularly.
 
 
 
