@@ -1,16 +1,3 @@
-//
-//---------------------------------------------------------------------------------
-//	STRIPPED DOWN RESUME TEMPLATE
-//		html resume
-//
-//		v0.9: 5/28/09
-//
-//		design and code by: thingsthatarebrown.com
-//												(matt brown)
-//---------------------------------------------------------------------------------
-//
-//
-
 @import _font
 // font-family: 'clear_sansbold'
 // font-family: 'clear_sansbold_italic'
@@ -20,7 +7,6 @@
 // font-family: 'clear_sans_mediumitalic'
 // font-family: 'clear_sansregular'
 // font-family: 'clear_sans_thinregular'
-//
 
 
 /**
@@ -39,23 +25,23 @@ $fontMultiplier: 1.2
 $gutter: 20px
 
 
-.msg
-	padding: 10px
-	background: #222
-	position: relative
+// .msg
+// 	padding: 10px
+// 	background: #222
+// 	position: relative
 
-	h1
-		color: #fff
+// 	h1
+// 		color: #fff
 
-	a
-		margin-left: 20px
-		background: $linkColor
-		color: white
-		padding: 4px 8px
-		text-decoration: none
+// 	a
+// 		margin-left: 20px
+// 		background: $linkColor
+// 		color: white
+// 		padding: 4px 8px
+// 		text-decoration: none
 
-		&:hover
-			background: #266400
+// 		&:hover
+// 			background: #266400
 
 
 
@@ -67,43 +53,61 @@ $gutter: 20px
 	margin: 0 auto
 
 #inner
-	padding: 10px 80px
+	padding: 10px 20px
 	margin: 80px auto
 	background: #f5f5f5
 	border: solid $secondaryColor
 	border-width: 8px 0 2px 0
 
 section
-	margin-bottom: 2em
 	padding-bottom: 2em
 	border-bottom: 1px solid lighten($secondaryColor, 50%)
 
+	&.row
+		margin-top: 2em
 
-/* //-- header, body, footer -- */
 #hd
-	margin: 2.5em 0 3em 0
-	padding-bottom: 1.5em
+	margin: 0 auto 3em auto
+	padding-top: 3.5em
+	padding-bottom: 3.5em
 	border-bottom: 1px solid lighten($secondaryColor, 35%)
 	h2
 		text-transform: uppercase
 		letter-spacing: 2px
 
-#main, #ft
+	.contact-info
+		margin-top: 7px
+
+#main
 	margin-bottom: 2em
 
+a.action
+	display: block
+	float: left
+	background: #666966
+	color: white
+	padding: 6px 12px 6px 12px
+	margin-bottom: 6px
+	text-decoration: none
+	border-radius: 5px 5px 5px 0
+	position: relative
+	margin-left: 6px
 
-/* //-- footer -- */
-#ft
-	padding: 1em 0 5em 0
-	font-size: 92%
-	border-top: 1px solid #ccc
-	text-align: center
+	&:before
+		border-bottom: 3px solid #666966
+		border-top: 3px solid transparent
+		border-left: 3px solid transparent
+		border-right: 3px solid #666966
+		width: 0
+		height: 0
+		position: absolute
+		left: -6px
+		bottom: 0
+		color: #666966
+		content: "\00a0"
 
-	p
-		margin-bottom: 0
-		text-align: center
-
-
+	&:hover
+		background: #222
 
 
 
@@ -146,7 +150,25 @@ small,
 	font-size: 0.75rem
 
 
+a
+	color: #990003
 
+	-ms-word-break: break-all
+	word-break: break-all
+	word-break: break-word
+	-webkit-hyphens: auto
+	-moz-hyphens: auto
+	hyphens: auto
+
+	&:hover
+		text-decoration: none
+
+strong
+	font-weight: bold
+
+li
+	line-height: 24px
+	border-bottom: 1px solid #ccc
 
 
 
@@ -161,7 +183,7 @@ section
 		font-size: $baseRem * $fontMultiplier * 1.3
 
 		@media screen and (max-width: 640px)
-			font-size: $baseRem * $fontMultiplier * 1.8
+			font-size: $baseRem * $fontMultiplier * 2.1
 			margin-bottom: 1em
 			text-align: center
 
@@ -199,48 +221,8 @@ section
 
 
 
-a
-	color: #990003
-
-	-ms-word-break: break-all
-	word-break: break-all
-	word-break: break-word
-	-webkit-hyphens: auto
-	-moz-hyphens: auto
-	hyphens: auto
-
-	&:hover
-		text-decoration: none
-
-strong
-	font-weight: bold
-
-li
-	line-height: 24px
-	border-bottom: 1px solid #ccc
-
-
-.contact-info
-	margin-top: 7px
-
-.last
-	border-bottom: 0
-
 
 /* //-- section styles -- */
-
-a#pdf
-	display: block
-	float: left
-	background: #666966
-	color: white
-	padding: 6px 50px 6px 12px
-	margin-bottom: 6px
-	text-decoration: none
-
-	&:hover
-		background: #222
-
 
 .job
 	position: relative
@@ -262,16 +244,40 @@ a#pdf
 .education
 	.description
 		p
-			margin-bottom: 0.35rem
+			margin-bottom: 0.15rem
+
+		p:first-child
+			margin-bottom: -7px
+
+		.major
+			font-size: .7rem
+			font-style: italic
 
 
-.presence
-	.talent
+
+// .presence
+	// .talent
 		// margin-left: $gutter
 
 
 
+.tech
+	margin: 0
+	padding: 0
+	li
+		display: inline-block
+		text-decoration: none
+		border: none
+		list-style-type: none
+		line-height: 1em
+		margin-right: 3px
 
+		&:after
+			margin-left: 3px
+			content: "\002f"
+
+		&:last-child:after
+			content: ""
 
 
 

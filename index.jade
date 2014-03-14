@@ -27,9 +27,10 @@ html(lang="en")
 				div.medium-6.columns
 					div.contact-info
 						h3
-							a#pdf(href="#") Download PDF
-						h3
-							a(href="mailto:nicholsbryan@gmail.com") nicholsbryan@gmail.com
+							//- a.action(href="#") Download PDF
+							a.action(href="mailto:nicholsbryan@gmail.com") nicholsbryan@gmail.com
+						//- h3
+							//- a(href="mailto:nicholsbryan@gmail.com") nicholsbryan@gmail.com
 						h3 (425) 679 - 9123
 
 
@@ -42,7 +43,7 @@ html(lang="en")
 
 
 				//- Employment
-				section.employment
+				section.employment.row
 					div.row
 						div.small-12.medium-3.columns
 							h1 Employment
@@ -88,7 +89,7 @@ html(lang="en")
 
 
 				//- Experience
-				section.experience
+				section.experience.row
 					div.row
 						div.medium-3.columns
 							h1 Experience
@@ -101,7 +102,7 @@ html(lang="en")
 								h3 6 months
 						div.medium-6.columns
 							div.description
-								p Backbone application used in the classroom to display interactive curriculum for grades 1 - 5
+								p Single page application built on Backbone JS. The application used in the classroom to display interactive curriculum for grades 1 - 5. Built to run as a module, it's powered on the backend with DNN for data and user authentication.
 
 					div.row
 						div.small-12.medium-3.columns
@@ -109,10 +110,10 @@ html(lang="en")
 						div.small-12.medium-3.columns
 							div.subtitle.position
 								h2 Skype
-								h3 2 months
+								h3 1 months
 						div.medium-6.columns
 							div.description
-								p Social video stitching application
+								p Proof of concept: Skype wanted to test the ability to create videos through a social experience. The application was configured on a Digital Ocean Droplet with Rails and Unicorn. Also leveraged the FFMpeg library for video manipulation operations (truncate, convert, stitch, add bumper).
 
 					div.row
 						div.small-12.medium-3.columns
@@ -120,10 +121,10 @@ html(lang="en")
 						div.small-12.medium-3.columns
 							div.subtitle.position
 								h2 Microsoft Content App
-								h3 2 months
+								h3 3 months
 						div.medium-6.columns
 							div.description
-								p WinJS Application used internally by Microsoft to distribute and view curated Microsoft content
+								p WinJS Application used internally by Microsoft to distribute and view curated Microsoft content. Leverages local storage API's for user data.
 
 					div.row
 						div.small-12.medium-3.columns
@@ -134,7 +135,18 @@ html(lang="en")
 								h3 4 months
 						div.medium-6.columns
 							div.description
-								p A Big News site
+								p Large aggregation of education related news. Complete wordpress integration from comp to completion. The site sits on top of 3 DB's due to aggregate data needs and administrational needs.
+
+					div.row
+						div.small-12.medium-3.columns
+							&nbsp;
+						div.small-12.medium-3.columns
+							div.subtitle.position
+								h2 Career Index
+								h3 4 months
+						div.medium-6.columns
+							div.description
+								p Custom application running on huge data store of publicically education statistics.
 
 					div.row
 						div.small-12.medium-3.columns
@@ -145,14 +157,14 @@ html(lang="en")
 								h3 On-going
 						div.medium-6.columns
 							div.description
-								p Collaborative Music education (guitar) project intent on changing the ease and method of idiomatically learning the guitar
+								p Collaborative Music education (guitar) project intent on changing the ease and method of idiomatically learning the guitar.
 
 
 
 
 
 				//- Code Examples
-				section.examples
+				//- section.examples.row
 					div.row
 						div.medium-3.columns
 							h1 Code Examples
@@ -223,7 +235,7 @@ html(lang="en")
 
 
 				//- Presence
-				section.presence
+				section.presence.row
 					div.row
 						div.medium-3.columns
 							h1 Digital Presence
@@ -250,24 +262,80 @@ html(lang="en")
 
 
 				//- Technical
-				section.technical
+				section.technical.row
 					div.row
-						div.medium-3.columns
+						div.medium-6.columns
 							h1 Technical
 
-						div.medium-3.columns
-							div.subtitle
-								h2 Proficiencies
+						//- div.medium-3.columns
+						//- 	div.subtitle
+						//- 		h2 Proficiencies
 
 						div.medium-6.columns
 							div.description
-								p Javascript / CSS3 / HTML5 / Jquery / PHP / Ruby / CVS / Subversion / Git / OS X / Windows XP/Vista / CLI / Linux / Windows 8 / WinJS / Sass / Compass / Grunt / Scut / Bower / Boxen / Yeoman / RequireJS / AMD / Sublime Text / Digital Ocean / SSH / Mac / iTerm2 / MAMP / WAMP / Backbone / Underscore / Gulp / JSON / AJAX / Canvas
+								ul.tech
+									li HTML5
+									li Jade
+									li Slim
+
+									li Javascript
+									li Coffeescript
+									li jQuery
+									li WinJS
+									li Backbone
+									li Underscore
+									li JSON
+									li AJAX
+									li Canvas
+
+									li AMD
+									li RequireJS
+
+									li Grunt
+									li Gulp
+									li Bower
+									li Yeoman
+									li Boxen
+
+									li CSS3
+									li Sass
+									li Less
+									li Stylus
+									li Compass
+									li Scut
+									li Bourbon
+
+									li PHP
+									li Ruby
+
+									li CVS
+									li Subversion
+									li Git
+
+									li OS X
+									li Windows XP, Vista, 8
+									li Linux
+									li CLI
+									li Digital Ocean
+									li SSH
+									li SSL
+									li Mac
+									li iTerm2
+									li MAMP
+									li WAMP
+									li Pow
+									li Anvil
+
+									li Sublime Text
+
+									li Jira
+									li Pivotal
 
 
 
 
 				//- Education
-				section.education
+				section.education.row
 					div.row
 						div.medium-3.columns
 							h1 Education
@@ -279,7 +347,7 @@ html(lang="en")
 						div.medium-6.columns
 							div.description
 								p Western Governors University - Salt Lake City, Utah
-								p Bachelor of Science: Information Technology with an emphasis on software
+								p.major Bachelor of Science: Information Technology with an emphasis on software
 								small * Some Coursework Completed,
 
 					div.row
@@ -335,7 +403,7 @@ html(lang="en")
 
 
 				//- Profile
-				section.profile
+				section.profile.row
 					div.row
 						div.medium-3.columns
 							h1 Interests
@@ -365,11 +433,12 @@ html(lang="en")
 								h2 Drums
 						div.medium-6.columns
 							div.description
-								p I'm a percussionist, having started about 10 years ago. I play for my church regularly.
+								p I'm a percussionist. Primarily set, but I also play the Cajon, Djembe, Congas and others. I began playing about 10 years ago and I play for my church on a regular basis.
 
 
 
-			footer.yui3-u
+			footer.row
+				div.small-12.medium-12.large-12.columns
 				:markdown
 					Bryan Nichols - [nicholsbryan@gmail.com](href="mailto:nicholsbryan@gmail.com")
 
