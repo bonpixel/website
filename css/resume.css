@@ -83,15 +83,33 @@ section {
   #hd h2 {
     text-transform: uppercase;
     letter-spacing: 2px; }
-  #hd .contact-info {
-    margin-top: 7px; }
+  #hd .contact-info h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    float: right; }
+    @media screen and (max-width: 750px) and (min-width: 641px) {
+      #hd .contact-info h3 {
+        font-size: 1.377rem; } }
+  @media screen and (max-width: 640px) {
+    #hd .small-12 {
+      margin-bottom: 1em;
+      text-align: center; }
+    #hd .contact-info {
+      margin-top: 30px; }
+      #hd .contact-info h3 {
+        float: none; }
+    #hd .email,
+    #hd .phone {
+      text-align: center;
+      font-size: 1rem; }
+    #hd .email {
+      margin-bottom: -10px; } }
 
 #main {
   margin-bottom: 2em; }
 
 a.action {
-  display: block;
-  float: left;
+  display: inline-block;
   background: #666966;
   color: white;
   padding: 6px 12px 6px 12px;
@@ -148,7 +166,7 @@ h2 {
   font-family: "clear_sansregular", sans-serif; }
 
 h3 {
-  font-size: 1.777rem;
+  font-size: 1.677rem;
   font-family: "clear_sans_lightregular", sans-serif; }
 
 h4 {
@@ -204,6 +222,11 @@ section .subtitle {
   section .subtitle h3 {
     margin-top: -5px;
     font-weight: italic; }
+  @media screen and (max-width: 640px) {
+    section .subtitle {
+      margin-bottom: 0.3rem; }
+      section .subtitle h3 {
+        margin-bottom: 0; } }
 section .description {
   margin-bottom: 0.9rem; }
   section .description p {
