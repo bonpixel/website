@@ -70,7 +70,8 @@ section {
   border-bottom: none; }
 
 .heading {
-  color: white; }
+  color: white;
+  font-family: "clear_sans_thinregular", sans-serif; }
 
 .links a {
   display: inline-block;
