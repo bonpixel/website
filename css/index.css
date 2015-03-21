@@ -59,8 +59,8 @@ html, body {
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -97.5px;
-  margin-top: -42px; }
+  margin-left: -144.5px;
+  margin-top: -60px; }
 
 .background {
   height: 100%;
@@ -75,9 +75,26 @@ section {
   color: white;
   font-family: "clear_sans_thinregular", sans-serif; }
 
-.links a {
+.imagewrap,
+.textwrap {
+  height: 120px;
   display: inline-block;
-  margin-left: 10px;
-  color: white; }
-  .links a:first-child {
-    margin-left: 0; }
+  vertical-align: middle; }
+
+.textwrap {
+  margin-left: 20px; }
+  .textwrap hr {
+    margin: 0;
+    margin-top: 15px;
+    border-width: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(255, 255, 255, 0.5); }
+
+.links {
+  margin-top: 30px; }
+  .links a {
+    display: inline-block;
+    margin-left: 10px;
+    color: white; }
+    .links a:first-child {
+      margin-left: 0; }
