@@ -77,9 +77,11 @@ section {
 
 .imagewrap,
 .textwrap {
-  height: 120px;
   display: inline-block;
   vertical-align: middle; }
+
+.imagewrap {
+  text-align: center; }
 
 .textwrap {
   margin-left: 20px; }
@@ -98,3 +100,26 @@ section {
     color: white; }
     .links a:first-child {
       margin-left: 0; }
+
+@media screen and (max-width: 640px) {
+  .imagewrap,
+  .textwrap {
+    display: block; }
+
+  .imagewrap {
+    margin-bottom: 30px; }
+
+  .textwrap {
+    margin-left: 0; }
+
+  h1.heading {
+    margin-bottom: 20px; }
+
+  h2.heading {
+    font-size: 1.36rem;
+    text-align: center;
+    margin-bottom: 30px; }
+
+  .content {
+    margin-left: -120.5px;
+    margin-top: -161.5px; } }
