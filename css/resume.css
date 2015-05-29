@@ -3,111 +3,150 @@
   src: url("../font/clearsans/ClearSans-Bold-webfont.eot");
   src: url("../font/clearsans/ClearSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/clearsans/ClearSans-Bold-webfont.woff") format("woff"), url("../font/clearsans/ClearSans-Bold-webfont.ttf") format("truetype"), url("../font/clearsans/ClearSans-Bold-webfont.svg#clear_sansbold") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 
 @font-face {
   font-family: "clear_sansbold_italic";
   src: url("../font/clearsans/ClearSans-BoldItalic-webfont.eot");
   src: url("../font/clearsans/ClearSans-BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/clearsans/ClearSans-BoldItalic-webfont.woff") format("woff"), url("../font/clearsans/ClearSans-BoldItalic-webfont.ttf") format("truetype"), url("../font/clearsans/ClearSans-BoldItalic-webfont.svg#clear_sansbold_italic") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 
 @font-face {
   font-family: "clear_sansitalic";
   src: url("../font/clearsans/ClearSans-Italic-webfont.eot");
   src: url("../font/clearsans/ClearSans-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/clearsans/ClearSans-Italic-webfont.woff") format("woff"), url("../font/clearsans/ClearSans-Italic-webfont.ttf") format("truetype"), url("../font/clearsans/ClearSans-Italic-webfont.svg#clear_sansitalic") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 
 @font-face {
   font-family: "clear_sans_lightregular";
   src: url("../font/clearsans/ClearSans-Light-webfont.eot");
   src: url("../font/clearsans/ClearSans-Light-webfont.eot?#iefix") format("embedded-opentype"), url("../font/clearsans/ClearSans-Light-webfont.woff") format("woff"), url("../font/clearsans/ClearSans-Light-webfont.ttf") format("truetype"), url("../font/clearsans/ClearSans-Light-webfont.svg#clear_sans_lightregular") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 
 @font-face {
   font-family: "clear_sans_mediumregular";
   src: url("../font/clearsans/ClearSans-Medium-webfont.eot");
   src: url("../font/clearsans/ClearSans-Medium-webfont.eot?#iefix") format("embedded-opentype"), url("../font/clearsans/ClearSans-Medium-webfont.woff") format("woff"), url("../font/clearsans/ClearSans-Medium-webfont.ttf") format("truetype"), url("../font/clearsans/ClearSans-Medium-webfont.svg#clear_sans_mediumregular") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 
 @font-face {
   font-family: "clear_sans_mediumitalic";
   src: url("../font/clearsans/ClearSans-MediumItalic-webfont.eot");
   src: url("../font/clearsans/ClearSans-MediumItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../font/clearsans/ClearSans-MediumItalic-webfont.woff") format("woff"), url("../font/clearsans/ClearSans-MediumItalic-webfont.ttf") format("truetype"), url("../font/clearsans/ClearSans-MediumItalic-webfont.svg#clear_sans_mediumitalic") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 
 @font-face {
   font-family: "clear_sansregular";
   src: url("../font/clearsans/ClearSans-Regular-webfont.eot");
   src: url("../font/clearsans/ClearSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/clearsans/ClearSans-Regular-webfont.woff") format("woff"), url("../font/clearsans/ClearSans-Regular-webfont.ttf") format("truetype"), url("../font/clearsans/ClearSans-Regular-webfont.svg#clear_sansregular") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 
 @font-face {
   font-family: "clear_sans_thinregular";
   src: url("../font/clearsans/ClearSans-Thin-webfont.eot");
   src: url("../font/clearsans/ClearSans-Thin-webfont.eot?#iefix") format("embedded-opentype"), url("../font/clearsans/ClearSans-Thin-webfont.woff") format("woff"), url("../font/clearsans/ClearSans-Thin-webfont.ttf") format("truetype"), url("../font/clearsans/ClearSans-Thin-webfont.svg#clear_sans_thinregular") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 
 /*
  * Common Variables
  */
+/* line 50, ../sass/resume.sass */
 #doc {
   width: 1080px;
   max-width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
+/* line 55, ../sass/resume.sass */
 #inner {
   padding: 10px 20px;
   margin: 80px auto;
   background: whitesmoke;
   border: solid #667066;
-  border-width: 8px 0 2px 0; }
+  border-width: 8px 0 2px 0;
+}
 
+/* line 62, ../sass/resume.sass */
 section {
   padding-bottom: 2em;
-  border-bottom: 1px solid #eaebea; }
-  section.row {
-    margin-top: 2em; }
+  border-bottom: 1px solid #eaebea;
+}
+/* line 66, ../sass/resume.sass */
+section.row {
+  margin-top: 2em;
+}
 
+/* line 69, ../sass/resume.sass */
 #hd {
   margin: 0 auto 3em auto;
   padding-top: 3.5em;
   padding-bottom: 3.5em;
-  border-bottom: 1px solid #c2c7c2; }
-  #hd h2 {
-    text-transform: uppercase;
-    letter-spacing: 2px; }
+  border-bottom: 1px solid #c2c7c2;
+}
+/* line 74, ../sass/resume.sass */
+#hd h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+/* line 82, ../sass/resume.sass */
+#hd .contact-info h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  float: right;
+}
+@media screen and (max-width: 750px) and (min-width: 641px) {
+  /* line 82, ../sass/resume.sass */
   #hd .contact-info h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    float: right; }
-    @media screen and (max-width: 750px) and (min-width: 641px) {
-      #hd .contact-info h3 {
-        font-size: 1.377rem; } }
-  @media screen and (max-width: 640px) {
-    #hd .small-12 {
-      margin-bottom: 1em;
-      text-align: center; }
-    #hd .contact-info {
-      margin-top: 30px; }
-      #hd .contact-info h3 {
-        float: none; }
-    #hd .email,
-    #hd .phone {
-      text-align: center;
-      font-size: 1rem; }
-    #hd .email {
-      margin-bottom: -10px; } }
+    font-size: 1.377rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 93, ../sass/resume.sass */
+  #hd .small-12 {
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  /* line 98, ../sass/resume.sass */
+  #hd .contact-info {
+    margin-top: 30px;
+  }
+  /* line 100, ../sass/resume.sass */
+  #hd .contact-info h3 {
+    float: none;
+  }
+  /* line 103, ../sass/resume.sass */
+  #hd .email,
+  #hd .phone {
+    text-align: center;
+    font-size: 1rem;
+  }
+  /* line 108, ../sass/resume.sass */
+  #hd .email {
+    margin-bottom: -10px;
+  }
+}
 
+/* line 112, ../sass/resume.sass */
 #main {
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+}
 
+/* line 115, ../sass/resume.sass */
 a.action {
   display: inline-block;
   background: #666966;
@@ -117,65 +156,89 @@ a.action {
   text-decoration: none;
   border-radius: 5px 5px 5px 0;
   position: relative;
-  margin-left: 6px; }
-  a.action:before {
-    border-bottom: 3px solid #666966;
-    border-top: 3px solid transparent;
-    border-left: 3px solid transparent;
-    border-right: 3px solid #666966;
-    width: 0;
-    height: 0;
-    position: absolute;
-    left: -6px;
-    bottom: 0;
-    color: #666966;
-    content: "\00a0"; }
-  a.action:hover:before {
-    border-bottom: 3px solid #222222;
-    border-top: 3px solid transparent;
-    border-left: 3px solid transparent;
-    border-right: 3px solid #222222; }
-  a.action:hover {
-    background: #222222; }
+  margin-left: 6px;
+}
+/* line 127, ../sass/resume.sass */
+a.action:before {
+  border-bottom: 3px solid #666966;
+  border-top: 3px solid transparent;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #666966;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: -6px;
+  bottom: 0;
+  color: #666966;
+  content: "\00a0";
+}
+/* line 140, ../sass/resume.sass */
+a.action:hover:before {
+  border-bottom: 3px solid #222222;
+  border-top: 3px solid transparent;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #222222;
+}
+/* line 146, ../sass/resume.sass */
+a.action:hover {
+  background: #222222;
+}
 
+/* line 157, ../sass/resume.sass */
 body {
   background-color: #445044;
   font-size: 13px;
   font-family: "clear_sansregular", sans-serif;
   font-weight: 400;
   line-height: 1.45;
-  color: #333333; }
+  color: #333333;
+}
 
+/* line 164, ../sass/resume.sass */
 p {
   margin-bottom: 1.3rem;
-  font-family: "clear_sansregular", sans-serif; }
+  font-family: "clear_sansregular", sans-serif;
+}
 
+/* line 168, ../sass/resume.sass */
 h1, h2, h3, h4 {
   font-family: "clear_sans_thinregular", sans-serif;
   margin: 1.414rem 0 0.5rem;
   font-weight: inherit;
   line-height: 1.2;
-  margin-top: 10px; }
+  margin-top: 10px;
+}
 
+/* line 174, ../sass/resume.sass */
 h1 {
   margin-top: 0;
-  font-size: 3.157rem; }
+  font-size: 3.157rem;
+}
 
+/* line 177, ../sass/resume.sass */
 h2 {
   font-size: 2.369rem;
-  font-family: "clear_sansregular", sans-serif; }
+  font-family: "clear_sansregular", sans-serif;
+}
 
+/* line 180, ../sass/resume.sass */
 h3 {
   font-size: 1.677rem;
-  font-family: "clear_sans_lightregular", sans-serif; }
+  font-family: "clear_sans_lightregular", sans-serif;
+}
 
+/* line 183, ../sass/resume.sass */
 h4 {
-  font-size: 1.333rem; }
+  font-size: 1.333rem;
+}
 
+/* line 185, ../sass/resume.sass */
 small,
 .font_small {
-  font-size: 0.75rem; }
+  font-size: 0.75rem;
+}
 
+/* line 190, ../sass/resume.sass */
 a {
   color: #990003;
   -ms-word-break: break-all;
@@ -183,88 +246,146 @@ a {
   word-break: break-word;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
-  hyphens: auto; }
-  a:hover {
-    text-decoration: none; }
+  hyphens: auto;
+}
+/* line 200, ../sass/resume.sass */
+a:hover {
+  text-decoration: none;
+}
 
+/* line 203, ../sass/resume.sass */
 strong {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+/* line 206, ../sass/resume.sass */
 li {
   line-height: 24px;
-  border-bottom: 1px solid #cccccc; }
+  border-bottom: 1px solid #cccccc;
+}
 
+/* line 219, ../sass/resume.sass */
 section h1 {
-  font-size: 1.56rem; }
-  @media screen and (max-width: 640px) {
-    section h1 {
-      font-size: 2.52rem;
-      margin-bottom: 1em;
-      text-align: center; } }
+  font-size: 1.56rem;
+}
+@media screen and (max-width: 640px) {
+  /* line 219, ../sass/resume.sass */
+  section h1 {
+    font-size: 2.52rem;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+}
+/* line 227, ../sass/resume.sass */
 section h2 {
-  font-size: 0.96rem; }
+  font-size: 0.96rem;
+}
+/* line 229, ../sass/resume.sass */
 section h3 {
-  font-size: 0.72rem; }
+  font-size: 0.72rem;
+}
+/* line 231, ../sass/resume.sass */
 section small {
   font-size: 0.6rem;
-  color: #777777; }
+  color: #777777;
+}
+/* line 235, ../sass/resume.sass */
 section .subtitle {
-  margin-bottom: 0.9rem; }
+  margin-bottom: 0.9rem;
+}
+/* line 238, ../sass/resume.sass */
+section .subtitle h2, section .subtitle h3 {
+  text-align: right;
+}
+@media screen and (max-width: 640px) {
+  /* line 238, ../sass/resume.sass */
   section .subtitle h2, section .subtitle h3 {
-    text-align: right; }
-    @media screen and (max-width: 640px) {
-      section .subtitle h2, section .subtitle h3 {
-        text-align: left; } }
-  section .subtitle h2 {
-    margin-top: 7px;
-    font-weight: 500;
-    letter-spacing: 1px; }
+    text-align: left;
+  }
+}
+/* line 242, ../sass/resume.sass */
+section .subtitle h2 {
+  margin-top: 7px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+/* line 246, ../sass/resume.sass */
+section .subtitle h3 {
+  margin-top: -5px;
+  font-weight: italic;
+}
+@media screen and (max-width: 640px) {
+  /* line 235, ../sass/resume.sass */
+  section .subtitle {
+    margin-bottom: 0.3rem;
+  }
+  /* line 252, ../sass/resume.sass */
   section .subtitle h3 {
-    margin-top: -5px;
-    font-weight: italic; }
-  @media screen and (max-width: 640px) {
-    section .subtitle {
-      margin-bottom: 0.3rem; }
-      section .subtitle h3 {
-        margin-bottom: 0; } }
+    margin-bottom: 0;
+  }
+}
+/* line 255, ../sass/resume.sass */
 section .description {
-  margin-bottom: 0.9rem; }
-  section .description p {
-    margin-top: 0.35rem; }
+  margin-bottom: 0.9rem;
+}
+/* line 257, ../sass/resume.sass */
+section .description p {
+  margin-top: 0.35rem;
+}
 
 /* //-- section styles -- */
+/* line 274, ../sass/resume.sass */
 .job {
   position: relative;
   margin-bottom: 1em;
   padding-bottom: 1em;
-  border-bottom: 1px solid #cccccc; }
-  .job h4 {
-    position: absolute;
-    top: 0.35em;
-    right: 0; }
-  .job p {
-    margin: 0.75em 0 3em 0; }
+  border-bottom: 1px solid #cccccc;
+}
+/* line 280, ../sass/resume.sass */
+.job h4 {
+  position: absolute;
+  top: 0.35em;
+  right: 0;
+}
+/* line 284, ../sass/resume.sass */
+.job p {
+  margin: 0.75em 0 3em 0;
+}
 
+/* line 293, ../sass/resume.sass */
 .education .description p {
-  margin-bottom: 0.15rem; }
+  margin-bottom: 0.15rem;
+}
+/* line 296, ../sass/resume.sass */
 .education .description p:first-child {
-  margin-bottom: -7px; }
+  margin-bottom: -7px;
+}
+/* line 299, ../sass/resume.sass */
 .education .description .major {
   font-size: 0.7rem;
-  font-style: italic; }
+  font-style: italic;
+}
 
+/* line 311, ../sass/resume.sass */
 .tech {
   margin: 0;
-  padding: 0; }
-  .tech li {
-    display: inline-block;
-    text-decoration: none;
-    border: none;
-    list-style-type: none;
-    line-height: 1em;
-    margin-right: 3px; }
-    .tech li:after {
-      margin-left: 3px;
-      content: "\002f"; }
-    .tech li:last-child:after {
-      content: ""; }
+  padding: 0;
+}
+/* line 314, ../sass/resume.sass */
+.tech li {
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  list-style-type: none;
+  line-height: 1em;
+  margin-right: 3px;
+}
+/* line 322, ../sass/resume.sass */
+.tech li:after {
+  margin-left: 3px;
+  content: "\002f";
+}
+/* line 326, ../sass/resume.sass */
+.tech li:last-child:after {
+  content: "";
+}
